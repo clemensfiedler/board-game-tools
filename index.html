@@ -1,0 +1,36 @@
+<header>
+    <title>Board Game Tools</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous">
+  </header>
+
+  <body>
+
+    <h1>Board Game Tools</h1>
+
+    <h2>Randomize Players</h2>
+    <div>
+      <div class="names-container" id="names-container">
+      </div>
+    </div>
+    <div>
+      <input type="text", id="fname" name="fname">
+      <button class='addName' onclick="addName()">Add Name</button>
+    </div>
+    <div>
+      <button class='showTeams' onclick="drawNames(names)">Show Teams</button>
+      <button onclick="resetNames()">Reset Teams</button>
+    </div>
+
+    <hr>
+    <footer>
+      <p>Source: Wikipedia</p>
+      <p>Author: Clemens Fiedler</p>
+      <p><a href="mailto:clemens.mb.fiedler@gmail.com">clemens.mb.fiedler@gmail.com</a></p>
+      <p><a href="https://github.com/clemensfiedler/board-game-tools"><i class="fa fa-github"></i>Code</a></p>
+    </footer>
+
+  </body>
+
+
+<script src="randomize_teams.js"></script>

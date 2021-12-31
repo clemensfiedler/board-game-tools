@@ -1,0 +1,80 @@
+@import url(https://fonts.googleapis.com/css?family=Work+Sans:300,600);
+
+body{
+  font-size: 20px;
+  font-family: 'Work Sans', sans-serif;
+  color: #333;
+  font-weight: 300;
+  text-align: center;
+  background-color: #f8f6f0;
+}
+
+h1{
+  font-weight: 300;
+  margin: 0px;
+  padding: 10px;
+  font-size: 20px;
+  background-color: #444;
+  color: #fff;
+}
+
+input{
+  font-family: 'Work Sans', sans-serif;
+  font-size: 22px;
+  background-color: rgb(57, 150, 187);
+  color: #fff;
+  border: 0px;
+  border-radius: 3px;
+  padding: 20px;
+  margin-left:150px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  width: 340px;
+}
+
+
+.name{
+  font-family: 'Work Sans', sans-serif;
+  font-size: 22px;
+  background-color: rgb(78, 78, 78);
+  color: #fff;
+  border: 0px;
+  border-radius: 3px;
+  padding: 20px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+}
+
+
+[team="1"]{
+  background-color: rgb(138, 34, 34);
+}
+
+[team="2"]{
+  background-color: rgb(72, 83, 182);
+}
+
+button{
+  font-family: 'Work Sans', sans-serif;
+  font-size: 22px;
+  background-color: #279;
+  color: #fff;
+  border: 0px;
+  border-radius: 3px;
+  padding: 20px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+a{
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+
+footer p{
+  margin: 0.25em
+}
