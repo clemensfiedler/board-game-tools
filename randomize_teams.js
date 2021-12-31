@@ -57,7 +57,7 @@ function shuffle(array_in) {
 function randomizeTeams(array_in, nTeams) {
 
   //get the number of players per team
-  playersPerTeam = Math.floor(array_in.length/nTeams)
+  playersPerTeam = Math.ceil(array_in.length/nTeams)
 
   //define current team and count of players
   teamID = 1
