@@ -4,6 +4,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous">
   </header>
 
+
+
   <body>
 
     <h1>Board Game Tools</h1>
@@ -12,14 +14,21 @@
     <div>
       <div class="names-container" id="names-container">
       </div>
+      <div>
+        <input type="text", id="fname" name="fname">
+        <button class='addName' onclick="addName()" pos='right'>Add Name</button>
+      </div>
+      <div class="containersTeams">
+        <button onclick="changeTeams(-1)">-</button>
+        <button id=nTeams disabled>2 teams</button>
+        <button onclick="changeTeams(+1)">+</button>
+      </div>
     </div>
     <div>
-      <input type="text", id="fname" name="fname">
-      <button class='addName' onclick="addName()">Add Name</button>
-    </div>
-    <div>
-      <button class='showTeams' onclick="drawNames(names)">Show Teams</button>
+      <button class='randomizeTeams' onclick="randomizeTeams()">Randomize Teams</button>
+      <button class='randomizeOrder' onclick="randomizeOrder()">Randomize Order</button>
       <button onclick="resetNames()">Reset Teams</button>
+      <button id="removePlayer" onclick="changeRemoveMode()" active=false>Remove Player</button>
     </div>
 
     <hr>

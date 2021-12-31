@@ -50,11 +50,23 @@ input{
 
 
 [team="1"]{
-  background-color: rgb(138, 34, 34);
+  background-color: rgb(160, 64, 64);
 }
 
 [team="2"]{
-  background-color: rgb(72, 83, 182);
+  background-color: rgb(64, 160, 160);
+}
+
+[team="3"]{
+  background-color: rgb(64, 160, 64);
+}
+
+[team="4"]{
+  background-color: rgb(64, 64, 160);
+}
+
+[team="5"]{
+  background-color: rgb(160, 160, 64);
 }
 
 button{
@@ -67,6 +79,15 @@ button{
   padding: 20px;
   cursor: pointer;
   margin-bottom: 20px;
+}
+
+button[pos="right"]{
+  width: 150px;
+  margin-top: 0px;
+}
+
+button[active=true]{
+  background-color:red
 }
 
 a{
